@@ -23,6 +23,7 @@ input {
     border-radius: 12px;
     outline: none;
     border: none;
+    color: rgb(190, 190, 190);
 }
 
 .material-symbols-outlined {
