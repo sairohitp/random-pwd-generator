@@ -27,6 +27,9 @@ input {
 }
 
 .material-symbols-outlined {
+    background-color: rgb(40, 40, 40);
+    border-radius: 100%;
+    padding: 13px;
   color: rgb(190, 190, 190);
   font-variation-settings:
   'FILL' 0,
@@ -39,4 +42,10 @@ h1 {
     font-size: 28px;
     margin: 0px;
     color: rgb(190, 190, 190);
+}
+
+.display {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
