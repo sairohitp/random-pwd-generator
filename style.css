@@ -44,6 +44,14 @@ h1 {
     color: rgb(190, 190, 190);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 .display {
     display: flex;
     gap: 10px;
