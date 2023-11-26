@@ -23,7 +23,7 @@ input {
     border-radius: 12px;
     outline: none;
     border: none;
-    color: rgb(190, 190, 190);
+    color: white;
 }
 
 .material-symbols-outlined {
@@ -31,7 +31,7 @@ input {
     background-color: rgb(40, 40, 40);
     border-radius: 100%;
     padding: 13px;
-  color: rgb(190, 190, 190);
+  color: white;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -42,7 +42,7 @@ input {
 h1 {
     font-size: 28px;
     margin: 0px;
-    color: rgb(190, 190, 190);
+    color: white;
 }
 
 .container {
@@ -77,7 +77,7 @@ button {
     background-color: rgb(40, 40, 40);
     outline: none;
     border: none;
-    color: rgb(190, 190, 190);
+    color: white;
     text-align: center;
     align-items: center;
     line-height: 1;
