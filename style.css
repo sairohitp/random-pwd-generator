@@ -27,6 +27,7 @@ input {
 }
 
 .material-symbols-outlined {
+    vertical-align: middle;
     background-color: rgb(40, 40, 40);
     border-radius: 100%;
     padding: 13px;
@@ -60,4 +61,19 @@ h1 {
 
 .hover:hover {
     background-color: rgb(60, 60, 60);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 5px 15px;
+    background-color: rgb(40, 40, 40);
+    outline: none;
+    border: none;
+    color: rgb(190, 190, 190);
+    text-align: center;
+    align-items: center;
+    line-height: 1;
 }
