@@ -48,9 +48,13 @@ h1 {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .display {
@@ -61,6 +65,7 @@ h1 {
 
 .hover:hover {
     background-color: rgb(60, 60, 60);
+    cursor: pointer;
 }
 
 button {
@@ -68,7 +73,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    padding: 5px 15px;
+    padding: 5px 30px 5px 10px;
     background-color: rgb(40, 40, 40);
     outline: none;
     border: none;
