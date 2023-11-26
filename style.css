@@ -28,15 +28,19 @@ input {
 
 .material-symbols-outlined {
     vertical-align: middle;
-    background-color: rgb(40, 40, 40);
-    border-radius: 100%;
-    padding: 13px;
+    
   color: white;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.copy {
+    background-color: rgb(40, 40, 40);
+    border-radius: 100%;
+    padding: 13px;
 }
 
 h1 {
@@ -81,4 +85,5 @@ button {
     text-align: center;
     align-items: center;
     line-height: 1;
+    font-weight: 600;
 }
